@@ -1,0 +1,201 @@
+body{
+    background-color: #000;
+    margin: auto;
+    padding: 20px;
+    font-family:'Open Sans Condensed';
+    font-size: 20px
+}
+
+/*Global*/
+
+span{
+    text-decoration: underline;
+}
+
+/*Header*/
+header{
+    text-align: center;
+    min-width: 50%;
+    width: 100%
+}
+
+.wrap h1{
+    color: #fff;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu-item a:hover{
+    color: #0c82d6;
+    transition: .5s;
+}
+
+.menu-item{
+    display: inline;
+    padding: 30px;
+    
+}
+
+
+
+.selected:active {
+    color: #ffff00;
+    fon
+}
+
+mark{
+    color:
+}
+
+/*Media Links*/
+
+.social_links{
+    display: inline;
+    padding: 20px;
+    color: #fff
+}
+
+.fa{
+    color: #fff;
+}
+
+.fa:hover{
+    color: #0c82d6;
+    transition: .5s;
+}
+
+.fa-instagram:hover{
+    color: #8a3ab9;
+}
+
+.fa-twitter:hover{
+    color: #0084b4;
+}
+
+.fa-facebook:hover{
+    color: #3B5998;
+}
+/*Headshot*/
+
+.Headshot{
+    text-align: center;
+    height:90%;
+    
+}
+
+.container img{
+    width: 70%;
+    height: 50%;
+}
+
+/*Work Gallery*/
+
+.gallery_images{
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery_images img{
+    width: 30%;
+    padding: 3px;
+    
+}
+
+.gallery_images img:hover{
+    opacity: 3
+}
+
+/*Gallery Media Query*/
+
+@media screen and (max-width: 700px){
+    .gallery_images img{
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 456px){
+    .gallery_images img{
+        width: 90%;
+    }
+}
+
+/*Videos Page*/
+
+.Video_Content{
+    height: 300px
+}
+
+.Video_Info h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px
+}
+
+/*Bio Page*/
+
+.Bio_Pic{
+    text-align: center
+}
+
+.Picture img{
+    width: 40%;
+    height: 30%;
+    border-radius: 500px;
+}
+
+.Bio_Text p{
+    color: #fff;
+    float: right
+}
+
+/*Contact Page*/
+
+.Contact_space{
+    text-align: center;
+    height: 200px;
+}
+
+.Contact_space input[name="email"]{
+    width: 200px;
+    border-radius: 20px;
+}
+
+textarea{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.Contact_space input[placeholder=" Email"]{
+    font-family: sans-serif;
+}
+
+.Contact_space input[type="submit"]{
+    padding: 10px 20px;
+    background-color:#275fba;
+    border-radius: 5px;
+    cursor: pointer
+    
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    color: #fff;
+    text-align: center;
+}
+
+/*Media Query*/
+
+@media screen and (max width 480px){
+    bo
+}
