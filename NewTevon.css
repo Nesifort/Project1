@@ -1,0 +1,250 @@
+/***********************
+General
+************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:lightgrey;
+}
+
+h1, {
+    font-size: 22px;
+}
+
+a,p {
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*******************
+Header
+*******************/
+
+header {
+    width:100%;
+    background: #AEAEAE;
+    margin: 0 0 20px 0;
+    padding: 5px 0 0 0;
+    float: left;
+    
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.logo h1,h2 {
+    color: #000;
+}
+
+/****Navagation*****/
+
+nav {
+    background: #7C7C7C;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a {
+   padding: 15px;
+    color: #000;
+    
+}
+
+nav a:hover {
+    color: purple;
+    opacity: 30%;
+}
+
+
+
+/****************
+Main Home Page Profile Picture/Video
+********************/
+
+.profile-pic {
+    text-align: center;
+}
+
+
+
+
+/*******************
+Gallery Page
+*********************/
+
+#gallery li {
+    width: 45%;
+    float: left;
+    padding: 5px;
+    margin: 2.5px;
+    list-style: none;
+    
+
+}
+
+#gallery li:hover {
+    opacity: 60%;
+    color:#fff;
+}
+
+
+/***********************
+About Page 
+***********************/
+
+.about img {
+    border-radius: 60%;
+    border: solid 2px #fff; 
+}
+
+.about p {
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 10px 5px;
+     
+}
+
+.about h2 {
+    color: #fff;
+    padding: 10px 0 10px 5px;
+}
+
+/**********************
+Contact Page
+*********************/
+
+.contact h3 {
+    padding: 10px;
+}
+
+.contact p {
+    padding-left: 10px;   
+}
+
+.reach li {
+    padding: 0 0 5px 10px;
+}
+
+
+
+/*****************
+Footer
+*****************/
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    padding: 10px;
+    color: #fff;
+}
+
+.social a:hover {
+    color: purple;
+    opacity: 30%;
+
+}
+
+
+
+footer {
+    clear:both;
+    text-align: center;
+    color:#fff ;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+
+/************************
+Media Query
+***************************/
+
+@media screen and (min-width: 480px) {
+    /*****
+    Two Column Layout for About Page
+    *****/
+    
+    #primary {
+        width: 50%;
+        float: left;
+        
+    }
+    
+    #secondary {
+        width: 40%;
+        float: right;
+        
+    }
+    
+    
+    /*******
+    3 column layout for Gallery 
+    *******/
+    
+    #gallery li {
+        width: 28.3333%;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 660px) {
+    
+    nav {
+        background: none;
+        float: right;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+        font-size: 16px;
+        color: #000;
+        padding-top: 20px;
+    }
+    
+    .logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    
+    header {
+        border-bottom: 5px solid #7C7C7C;
+    }
+    
+}
+    
+
+
